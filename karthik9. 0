@@ -1,0 +1,39 @@
+def pf ():
+  a=input (" enter your string:")
+  c=a.split ()
+  d=[x for x in c if x[0]=="s"]
+  print(d)
+
+
+
+
+
+
+for x in range(0,11,2):
+    print(x)
+    
+    
+    
+    
+    a=[x for x in range(51) if x%3==0]
+print(a)
+
+
+
+
+def po():
+    a=input("enter your string :")
+    c=a.split()
+    d=[x for x in c if len(x)%2==0]
+    print(d)
+
+
+
+
+
+def pk():
+      a=input (" enter your string:")
+      c=a.split()
+      d=[x[0] for x in c]
+      print(d)
+      
